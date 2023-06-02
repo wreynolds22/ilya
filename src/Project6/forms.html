@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Basics</title>
+    </head>
+    <body>
+        <form action="http://example.com/join.php">
+            <p>
+                Username:
+                <input type="text" name="username" size="15" maxlength="30" />
+            </p>
+            <p>
+                Password:
+                <input type="Password" name="Password" size="15" maxlength="16" />
+            </p>
+            <p>How can we improve our service?</p>
+
+             <textarea name="comments" cols="20" rows="4"
+
+             placeholder="Enter your comments...">
+           
+             </textarea>
+             <p>Your favorite rythym game:<br>
+
+                <input type="radio" name="genre"
+                
+                value="Bandori" checked="checked" >
+                
+                Bandori
+                
+                <input type="radio" name="genre" value="D4DJ">
+                
+                D4DJ
+                
+                <input type="radio" name="genre" value="Project Sekai">
+                
+                Project Sekai
+                
+                </p>
+                <p> Device you play on:<br>
+
+                    <input type="checkbox" name="service"
+                    
+                    value="Mobile Device" checked="checked" >
+                    
+                    Mobile Device
+                    
+                    <input type="checkbox" name="service"
+                    
+                    value="Game system" >
+                    
+                    Game system
+                    
+                    <input type="checkbox" name="service"
+                    
+                    value="Computer" >
+                    
+                    Computer
+                    
+                    </p>
+                    <select name="Mode">
+
+                        <option value="Easy" selected="selected">
+                        
+                        Easy
+                        
+                        </option>
+                        
+                        <option value="Normal">
+                        
+                        Normal
+                        
+                        </option>
+                        
+                        <option value="Hard">
+                        
+                        Hard
+                        
+                        </option>
+                        <option value="Expert">
+                        
+                            Expert
+                            
+                            </option>
+                        
+                        </select>
+                        <select name="devices" size="4">
+
+                            <option value="guitar" selected="selected">
+                            
+                            Guitarist
+                            
+                            </option>
+                            <option value="drums">
+                            
+                            Drumer
+                            
+                            </option>
+                            
+                            <option value="keys” selected="selected">
+                            
+                            Keyboard
+                            
+                            </option>
+                            
+                            <option value="bass">
+                            
+                            Bassist
+                            
+                            </option>
+                            </option>
+                            
+                            <option value="Singer">
+                        
+                            Singer
+                        
+                            </option>
+                            
+                            </select>
+                            <form action="http://eg.com/upload.php"
+
+                            method="post">
+
+                            <p>
+
+                         Upload your song in MP3 format:
+
+                          </p>
+
+<input type="file" name="user-song" />
+
+<input type="submit" value="upload" />
+
+</form>
+                        
+        </form>
+    </body>
+</html>
